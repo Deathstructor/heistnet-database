@@ -19,7 +19,7 @@
     "MAYHEM",
     "DEATH SENTENCE"
   ],
-  "tactic": ["Stealth", "Loud", "Any"],
+  "tactic": ["STEALTH", "LOUD", "ANY"],
   "job": {
     "title": [
       "Escape Driver",
