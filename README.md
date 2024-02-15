@@ -1,15 +1,15 @@
-# heistnet-database
+# Heist.net database
+This is the Heist.net database where the default data for the database is generated.
+The data in the database is randomly generated, so this is to generate new data in the database.
 
-To install dependencies:
-
+### Generate data
+To generate data, run this command in the console:
 ```bash
-bun install
+bun run dev
 ```
-
-To run:
-
+OR
 ```bash
-bun run index.js
+npm run dev
 ```
-
-This project was created using `bun init` in bun v1.0.14. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Make sure that Bun or Node is installed before running the command.
+After running the command you can simply do CTRL + C to stop the command as you do not need to remain connected to the database for the data to be updated.
