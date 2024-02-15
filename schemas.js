@@ -22,7 +22,11 @@ const HeistSchema = new mongoose.Schema({
             type: String,
             require: true
         }
-    }]
+    }],
+    id: {
+        type: Number,
+        require: true
+    }
 })
 
 export const HeistModel = mongoose.model("Heist", HeistSchema);

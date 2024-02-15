@@ -31,7 +31,8 @@ export async function Run() {
                     name: name[i],
                     difficulty: difficulty[randomMinMax(0, difficulty.length - 1)],
                     tactic: tactic[randomMinMax(0, tactic.length - 1)],
-                    job: jobArr
+                    job: jobArr,
+                    id: i
                 });
             }
         }
